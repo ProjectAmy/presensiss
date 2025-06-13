@@ -45,7 +45,7 @@ export default function AboutPage() {
                   <tbody>
                     <tr>
                       <td className="border px-3 py-2">1</td>
-                      <td className="border px-3 py-2">Al-Qur'an</td>
+                      <td className="border px-3 py-2">Al-Qur&apos;an</td>
                       <td className="border px-3 py-2">VII A</td>
                       <td className="border px-3 py-2 text-center">
                         <a href="/presensi" className="inline-block px-2 py-1 rounded bg-red-100 text-red-700 hover:underline">Belum</a>

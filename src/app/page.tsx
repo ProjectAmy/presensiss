@@ -1,4 +1,5 @@
 'use client';
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -10,11 +11,13 @@ export default function Home() {
         <div className="flex justify-center mb-4">
           <div className="relative w-60 h-60 rounded-full overflow-hidden">
             {/* Ganti src sesuai path logo di project ini jika perlu */}
-            <img 
-              src="/images/logoyiss.png" 
+            <Image
+              src="/images/logoyiss.png"
               alt="Logo Yiss"
+              width={240}
+              height={240}
               className="object-cover w-full h-full"
-              style={{ objectFit: 'cover' }}
+              priority
             />
           </div>
         </div>

@@ -29,7 +29,7 @@ export default function PresensiPage() {
             </div>
             <div className="bg-white rounded-b-lg shadow p-6 text-gray-800 space-y-4">
               <div className="flex flex-col gap-2">
-                <div><span className="font-semibold">Pelajaran:</span> Al-Qur'an</div>
+                <div><span className="font-semibold">Pelajaran:</span> Al-Qur&apos;an</div>
                 <div><span className="font-semibold">Jam ke:</span> 1</div>
                 <div><span className="font-semibold">Pengajar:</span> Amysidra</div>
               </div>
