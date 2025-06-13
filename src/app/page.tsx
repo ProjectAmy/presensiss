@@ -6,7 +6,7 @@ export default function Home() {
       <form
         className="bg-white p-8 rounded-lg shadow-lg flex flex-col gap-5 w-full max-w-sm border border-gray-200"
       >
-        {/* Logo Al Irsyad */}
+        {/* Logo yiss */}
         <div className="flex justify-center mb-4">
           <div className="relative w-60 h-60 rounded-full overflow-hidden">
             {/* Ganti src sesuai path logo di project ini jika perlu */}
@@ -18,7 +18,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <h1 className="text-3xl font-bold mb-6 text-center text-gray-800">Presensi Online</h1>
+        <h1 className="text-3xl font-bold mb-6 text-center text-gray-800">Dashboard Guru</h1>
         {/* Error message placeholder, bisa dihapus jika tidak dipakai */}
         {/* <div className="text-red-500 text-sm mb-3 text-center">Error Message</div> */}
         <button

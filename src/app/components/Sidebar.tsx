@@ -19,6 +19,7 @@ export default function Sidebar({ onLogout, open, onClose }: { onLogout: () => v
         </button>
         <nav className="flex flex-col gap-4 mt-2 md:mt-0">
           <a href="/dashboard" className="hover:bg-green-700 px-4 py-2 rounded transition-colors">Home</a>
+          <a href="/jadwal" className="hover:bg-green-700 px-4 py-2 rounded transition-colors">Jadwal</a>
           <a href="/about" className="hover:bg-green-700 px-4 py-2 rounded transition-colors">About Us</a>
           <button onClick={onLogout} className="mt-8 bg-red-500 hover:bg-red-700 px-4 py-2 rounded transition-colors">Log Out</button>
         </nav>
